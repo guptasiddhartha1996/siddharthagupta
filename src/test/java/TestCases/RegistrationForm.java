@@ -175,6 +175,7 @@ class MyFrame extends JFrame implements ActionListener{
 		}
 		if(day.getSelectedIndex()!=0 && month.getSelectedIndex()!=0 && year.getSelectedIndex()!=0) {
 			label9.setText("");
+			System.out.println("Hello World");
 		}
 
 	}
