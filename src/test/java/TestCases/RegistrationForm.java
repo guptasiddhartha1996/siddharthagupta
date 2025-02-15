@@ -10,7 +10,7 @@ import java.awt.event.KeyListener;
 
 class MyFrame extends JFrame implements ActionListener{
 	
-	JLabel label1,label2,label3,label4,label5, label6,label7,label8, label9;
+	JLabel label1,label2,label3,label4,label5, label6,label7,label8, label9, background;
 	JTextField t1,t2;
 	JRadioButton male,female;
 	JComboBox day,month,year;
@@ -27,6 +27,12 @@ class MyFrame extends JFrame implements ActionListener{
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		Container c=getContentPane();
 		c.setLayout(null);
+		ImageIcon img=new ImageIcon("C:\\Users\\gupta\\OneDrive\\Desktop\\Images\\Background.png");
+		background =new JLabel("",img,JLabel.CENTER);
+		background.setBounds(0, 0, 1000, 500);
+		add(background);
+		
+		
 		
 		
 		label1=new JLabel("Name");
@@ -122,7 +128,7 @@ class MyFrame extends JFrame implements ActionListener{
 		msg.setBounds(20, 400, 250, 20);
 		c.add(msg);
 		
-		c.setBackground(Color.CYAN);
+		//c.setBackground(Color.CYAN);
 		
 		setVisible(true);
 	}

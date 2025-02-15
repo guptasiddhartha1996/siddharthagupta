@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 class MyFrames extends JFrame implements ActionListener{
 	
 	Container c;
-	JLabel label1, label2;
+	JLabel label1, label2,background;
 	JTextField user;
 	JPasswordField pass;
 	JButton btn;
@@ -21,6 +21,11 @@ class MyFrames extends JFrame implements ActionListener{
 		setLocationRelativeTo(null);
 		//setLocation(100,100);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		ImageIcon img=new ImageIcon("Background.jpg");
+		background =new JLabel("",img,JLabel.CENTER);
+		background.setBounds(0, 0, 700, 500);
+		add(background);
 		
 		c=getContentPane();
 		c.setLayout(null); 	
