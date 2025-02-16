@@ -9,7 +9,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -28,9 +30,13 @@ public class BaseTest {
 	@Parameters("browser")
 	public void baseTest(String browser) {
 		
+		
 		if(browser.equalsIgnoreCase("chrome")) {
 			System.out.println("Open a chrome browser");
-			 driver=new ChromeDriver();
+			ChromeOptions opt=new ChromeOptions();
+			//opt.addArguments("--headless=new");
+			opt.addArguments("incognito");
+			 driver=new ChromeDriver(opt);
 
 		}
 		else if(browser.equalsIgnoreCase("firefox")) {
@@ -40,10 +46,13 @@ public class BaseTest {
 		else if(browser.equalsIgnoreCase("Edge")) {
 			System.out.println("Open a Edge browser");
 			driver=new EdgeDriver();
+			
 		}
+		driver.get("https://www.naukri.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://www.naukri.com/");
+		System.out.println("Title is :"+driver.getTitle());
+		
 
 		
 	}

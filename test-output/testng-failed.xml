@@ -4,13 +4,15 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.NaukriEditProfile">
+      <class name="TestCases.NaukriUpdateResume">
         <methods>
-          <include name="naurkiEditProfile"/>
+          <include name="login"/>
+          <include name="uploadresume"/>
           <include name="baseTest"/>
+          <include name="logout"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCases.NaukriEditProfile -->
+      </class> <!-- TestCases.NaukriUpdateResume -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -98,7 +98,7 @@ public class HomePage extends BaseTest {
 			}
 		}
 		location.sendKeys(loc);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		ls.get(0).click();
 		Thread.sleep(2000);
 		savebutton.click();
@@ -107,8 +107,9 @@ public class HomePage extends BaseTest {
 	
 	public void UpdateResume() throws InterruptedException, AWTException {
 		
-		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.elementToBeClickable(viewprofile)).click();
+		Thread.sleep(2000);
 		resume.click();
 		if(trashbutton.isDisplayed()) {
 			trashbutton.click();
