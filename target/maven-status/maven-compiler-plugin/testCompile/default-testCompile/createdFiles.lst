@@ -1,0 +1,5 @@
+TestCases\NaukriUpdateResume.class
+PageObjects\HomePage.class
+TestCases\NaukriEditCareerProfile.class
+PageObjects\LoginPageObjects.class
+TestCases\BaseTest.class

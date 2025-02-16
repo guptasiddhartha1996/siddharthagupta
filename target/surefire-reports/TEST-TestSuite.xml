@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="58.66" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="58.661" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -55,26 +55,26 @@
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\gupta\eclipse-workspace\Naukri"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="m2e.build.project.data.socket.port" value="51218"/>
+    <property name="m2e.build.project.data.socket.port" value="52092"/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Users\gupta\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/gupta/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706/jre/bin/server;C:/Users/gupta/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\gupta\openlogic-openjdk-11.0.24+8-windows-x64\openlogic-openjdk-11.0.24+8-windows-x64\bin;C:\Users\gupta\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\gupta\node-v22.13.1-win-x64\node-v22.13.1-win-x64;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-21\bin;C:\Users\gupta\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\gupta\AppData\Local\Programs\Python\Python313\;C:\Users\gupta\AppData\Local\Programs\Python\Launcher\;C:\Users\gupta\AppData\Local\Microsoft\WindowsApps;C:\Users\gupta\AppData\Local\Programs\Microsoft VS Code\bin;;C:\WINDOWS\System32;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="23+37"/>
-    <property name="classworlds.conf" value="C:\Users\gupta\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9342552259015825909.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\gupta\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9228193590382775574.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="Login" classname="TestCases.NaukriEditCareerProfile" time="0.598">
-    <system-out><![CDATA[17:03:16.434 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\gupta\eclipse-workspace\Naukri\testng.xml"
-17:03:16.544 [main] DEBUG com.aventstack.chaintest.service.ChainPluginService -- Found configuration entry chaintest.generator.email.enabled, will use chaintest.generator.email.class-name to resolve class
-17:03:16.547 [main] DEBUG com.aventstack.chaintest.service.ChainPluginService -- Found configuration entry chaintest.generator.chainlp.enabled, will use chaintest.generator.chainlp.class-name to resolve class
-17:03:16.550 [main] DEBUG com.aventstack.chaintest.service.ChainPluginService -- Found configuration entry chaintest.generator.simple.enabled, will use chaintest.generator.simple.class-name to resolve class
-17:03:16.554 [main] DEBUG com.aventstack.chaintest.generator.FileGenerator -- Loading template index.ftl for class class com.aventstack.chaintest.generator.ChainTestEmailGenerator with basePackagePath email/
-17:03:17.073 [main] DEBUG com.aventstack.chaintest.http.HttpRetryHandler -- Creating HttpRetryHandler instance for 3 retry attempts
-17:03:17.157 [main] DEBUG com.aventstack.chaintest.http.ChainTestApiClient -- Created request for entity Build with body: {"id":0,"projectId":0,"projectName":"Naukri.com","startedAt":1739705597073,"endedAt":0,"durationMs":0,"executionStage":"IN_PROGRESS","testRunner":"testng","name":null,"result":"PASSED","tagStatsMonitor":{},"tags":[],"gitRepository":null,"gitBranch":null,"gitCommitHash":null,"gitTags":null,"gitCommitMessage":null,"systemInfo":[{"id":0,"name":"java.version","val":"23"},{"id":0,"name":"java.vm.name","val":"OpenJDK 64-Bit Server VM"},{"id":0,"name":"java.vm.vendor","val":"Eclipse Adoptium"},{"id":0,"name":"java.class.version","val":"67.0"},{"id":0,"name":"java.runtime.name","val":"OpenJDK Runtime Environment"},{"id":0,"name":"os.name","val":"Windows 11"},{"id":0,"name":"os.arch","val":"amd64"},{"id":0,"name":"os.version","val":"10.0"}],"durationPretty":"0ms","bdd":false}
-17:03:17.216 [main] DEBUG com.aventstack.chaintest.http.HttpRetryHandler -- Failed to connect to the ChainTest service
+  <testcase name="Login" classname="TestCases.NaukriEditCareerProfile" time="0.603">
+    <system-out><![CDATA[17:43:38.318 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\gupta\eclipse-workspace\Naukri\testng.xml"
+17:43:38.430 [main] DEBUG com.aventstack.chaintest.service.ChainPluginService -- Found configuration entry chaintest.generator.email.enabled, will use chaintest.generator.email.class-name to resolve class
+17:43:38.433 [main] DEBUG com.aventstack.chaintest.service.ChainPluginService -- Found configuration entry chaintest.generator.chainlp.enabled, will use chaintest.generator.chainlp.class-name to resolve class
+17:43:38.434 [main] DEBUG com.aventstack.chaintest.service.ChainPluginService -- Found configuration entry chaintest.generator.simple.enabled, will use chaintest.generator.simple.class-name to resolve class
+17:43:38.437 [main] DEBUG com.aventstack.chaintest.generator.FileGenerator -- Loading template index.ftl for class class com.aventstack.chaintest.generator.ChainTestEmailGenerator with basePackagePath email/
+17:43:38.984 [main] DEBUG com.aventstack.chaintest.http.HttpRetryHandler -- Creating HttpRetryHandler instance for 3 retry attempts
+17:43:39.061 [main] DEBUG com.aventstack.chaintest.http.ChainTestApiClient -- Created request for entity Build with body: {"id":0,"projectId":0,"projectName":"Naukri.com","startedAt":1739708018984,"endedAt":0,"durationMs":0,"executionStage":"IN_PROGRESS","testRunner":"testng","name":null,"result":"PASSED","tagStatsMonitor":{},"tags":[],"gitRepository":null,"gitBranch":null,"gitCommitHash":null,"gitTags":null,"gitCommitMessage":null,"systemInfo":[{"id":0,"name":"java.version","val":"23"},{"id":0,"name":"java.vm.name","val":"OpenJDK 64-Bit Server VM"},{"id":0,"name":"java.vm.vendor","val":"Eclipse Adoptium"},{"id":0,"name":"java.class.version","val":"67.0"},{"id":0,"name":"java.runtime.name","val":"OpenJDK Runtime Environment"},{"id":0,"name":"os.name","val":"Windows 11"},{"id":0,"name":"os.arch","val":"amd64"},{"id":0,"name":"os.version","val":"10.0"}],"durationPretty":"0ms","bdd":false}
+17:43:39.116 [main] DEBUG com.aventstack.chaintest.http.HttpRetryHandler -- Failed to connect to the ChainTest service
 java.net.ConnectException: null
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
@@ -152,8 +152,8 @@ Caused by: java.nio.channels.ClosedChannelException: null
 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
 	... 9 common frames omitted
-17:03:19.234 [main] DEBUG com.aventstack.chaintest.http.ChainTestApiClient -- Created request for entity Build with body: {"id":0,"projectId":0,"projectName":"Naukri.com","startedAt":1739705597073,"endedAt":0,"durationMs":0,"executionStage":"IN_PROGRESS","testRunner":"testng","name":null,"result":"PASSED","tagStatsMonitor":{},"tags":[],"gitRepository":null,"gitBranch":null,"gitCommitHash":null,"gitTags":null,"gitCommitMessage":null,"systemInfo":[{"id":0,"name":"java.version","val":"23"},{"id":0,"name":"java.vm.name","val":"OpenJDK 64-Bit Server VM"},{"id":0,"name":"java.vm.vendor","val":"Eclipse Adoptium"},{"id":0,"name":"java.class.version","val":"67.0"},{"id":0,"name":"java.runtime.name","val":"OpenJDK Runtime Environment"},{"id":0,"name":"os.name","val":"Windows 11"},{"id":0,"name":"os.arch","val":"amd64"},{"id":0,"name":"os.version","val":"10.0"}],"durationPretty":"0ms","bdd":false}
-17:03:19.240 [main] DEBUG com.aventstack.chaintest.http.HttpRetryHandler -- Failed to connect to the ChainTest service
+17:43:41.133 [main] DEBUG com.aventstack.chaintest.http.ChainTestApiClient -- Created request for entity Build with body: {"id":0,"projectId":0,"projectName":"Naukri.com","startedAt":1739708018984,"endedAt":0,"durationMs":0,"executionStage":"IN_PROGRESS","testRunner":"testng","name":null,"result":"PASSED","tagStatsMonitor":{},"tags":[],"gitRepository":null,"gitBranch":null,"gitCommitHash":null,"gitTags":null,"gitCommitMessage":null,"systemInfo":[{"id":0,"name":"java.version","val":"23"},{"id":0,"name":"java.vm.name","val":"OpenJDK 64-Bit Server VM"},{"id":0,"name":"java.vm.vendor","val":"Eclipse Adoptium"},{"id":0,"name":"java.class.version","val":"67.0"},{"id":0,"name":"java.runtime.name","val":"OpenJDK Runtime Environment"},{"id":0,"name":"os.name","val":"Windows 11"},{"id":0,"name":"os.arch","val":"amd64"},{"id":0,"name":"os.version","val":"10.0"}],"durationPretty":"0ms","bdd":false}
+17:43:41.138 [main] DEBUG com.aventstack.chaintest.http.HttpRetryHandler -- Failed to connect to the ChainTest service
 java.net.ConnectException: null
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
@@ -231,8 +231,8 @@ Caused by: java.nio.channels.ClosedChannelException: null
 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
 	... 9 common frames omitted
-17:03:21.252 [main] DEBUG com.aventstack.chaintest.http.ChainTestApiClient -- Created request for entity Build with body: {"id":0,"projectId":0,"projectName":"Naukri.com","startedAt":1739705597073,"endedAt":0,"durationMs":0,"executionStage":"IN_PROGRESS","testRunner":"testng","name":null,"result":"PASSED","tagStatsMonitor":{},"tags":[],"gitRepository":null,"gitBranch":null,"gitCommitHash":null,"gitTags":null,"gitCommitMessage":null,"systemInfo":[{"id":0,"name":"java.version","val":"23"},{"id":0,"name":"java.vm.name","val":"OpenJDK 64-Bit Server VM"},{"id":0,"name":"java.vm.vendor","val":"Eclipse Adoptium"},{"id":0,"name":"java.class.version","val":"67.0"},{"id":0,"name":"java.runtime.name","val":"OpenJDK Runtime Environment"},{"id":0,"name":"os.name","val":"Windows 11"},{"id":0,"name":"os.arch","val":"amd64"},{"id":0,"name":"os.version","val":"10.0"}],"durationPretty":"0ms","bdd":false}
-17:03:21.257 [main] DEBUG com.aventstack.chaintest.http.HttpRetryHandler -- Failed to connect to the ChainTest service
+17:43:43.145 [main] DEBUG com.aventstack.chaintest.http.ChainTestApiClient -- Created request for entity Build with body: {"id":0,"projectId":0,"projectName":"Naukri.com","startedAt":1739708018984,"endedAt":0,"durationMs":0,"executionStage":"IN_PROGRESS","testRunner":"testng","name":null,"result":"PASSED","tagStatsMonitor":{},"tags":[],"gitRepository":null,"gitBranch":null,"gitCommitHash":null,"gitTags":null,"gitCommitMessage":null,"systemInfo":[{"id":0,"name":"java.version","val":"23"},{"id":0,"name":"java.vm.name","val":"OpenJDK 64-Bit Server VM"},{"id":0,"name":"java.vm.vendor","val":"Eclipse Adoptium"},{"id":0,"name":"java.class.version","val":"67.0"},{"id":0,"name":"java.runtime.name","val":"OpenJDK Runtime Environment"},{"id":0,"name":"os.name","val":"Windows 11"},{"id":0,"name":"os.arch","val":"amd64"},{"id":0,"name":"os.version","val":"10.0"}],"durationPretty":"0ms","bdd":false}
+17:43:43.151 [main] DEBUG com.aventstack.chaintest.http.HttpRetryHandler -- Failed to connect to the ChainTest service
 java.net.ConnectException: null
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
@@ -310,8 +310,8 @@ Caused by: java.nio.channels.ClosedChannelException: null
 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
 	... 9 common frames omitted
-17:03:23.265 [main] DEBUG com.aventstack.chaintest.http.ChainTestApiClient -- Created request for entity Build with body: {"id":0,"projectId":0,"projectName":"Naukri.com","startedAt":1739705597073,"endedAt":0,"durationMs":0,"executionStage":"IN_PROGRESS","testRunner":"testng","name":null,"result":"PASSED","tagStatsMonitor":{},"tags":[],"gitRepository":null,"gitBranch":null,"gitCommitHash":null,"gitTags":null,"gitCommitMessage":null,"systemInfo":[{"id":0,"name":"java.version","val":"23"},{"id":0,"name":"java.vm.name","val":"OpenJDK 64-Bit Server VM"},{"id":0,"name":"java.vm.vendor","val":"Eclipse Adoptium"},{"id":0,"name":"java.class.version","val":"67.0"},{"id":0,"name":"java.runtime.name","val":"OpenJDK Runtime Environment"},{"id":0,"name":"os.name","val":"Windows 11"},{"id":0,"name":"os.arch","val":"amd64"},{"id":0,"name":"os.version","val":"10.0"}],"durationPretty":"0ms","bdd":false}
-17:03:23.271 [main] DEBUG com.aventstack.chaintest.http.HttpRetryHandler -- Failed to connect to the ChainTest service
+17:43:45.156 [main] DEBUG com.aventstack.chaintest.http.ChainTestApiClient -- Created request for entity Build with body: {"id":0,"projectId":0,"projectName":"Naukri.com","startedAt":1739708018984,"endedAt":0,"durationMs":0,"executionStage":"IN_PROGRESS","testRunner":"testng","name":null,"result":"PASSED","tagStatsMonitor":{},"tags":[],"gitRepository":null,"gitBranch":null,"gitCommitHash":null,"gitTags":null,"gitCommitMessage":null,"systemInfo":[{"id":0,"name":"java.version","val":"23"},{"id":0,"name":"java.vm.name","val":"OpenJDK 64-Bit Server VM"},{"id":0,"name":"java.vm.vendor","val":"Eclipse Adoptium"},{"id":0,"name":"java.class.version","val":"67.0"},{"id":0,"name":"java.runtime.name","val":"OpenJDK Runtime Environment"},{"id":0,"name":"os.name","val":"Windows 11"},{"id":0,"name":"os.arch","val":"amd64"},{"id":0,"name":"os.version","val":"10.0"}],"durationPretty":"0ms","bdd":false}
+17:43:45.161 [main] DEBUG com.aventstack.chaintest.http.HttpRetryHandler -- Failed to connect to the ChainTest service
 java.net.ConnectException: null
 	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956)
 	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
@@ -389,21 +389,23 @@ Caused by: java.nio.channels.ClosedChannelException: null
 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
 	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
 	... 9 common frames omitted
-17:03:25.285 [main] DEBUG com.aventstack.chaintest.generator.FileGenerator -- Loading template index.ftl for class class com.aventstack.chaintest.generator.ChainTestSimpleGenerator with basePackagePath simple
+17:43:47.166 [main] DEBUG com.aventstack.chaintest.generator.FileGenerator -- Loading template index.ftl for class class com.aventstack.chaintest.generator.ChainTestSimpleGenerator with basePackagePath simple
 Open a chrome browser
 ]]></system-out>
-    <system-err><![CDATA[Feb 16, 2025 5:03:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 16, 2025 5:43:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="homepage" classname="TestCases.NaukriEditCareerProfile" time="26.657">
-    <system-out><![CDATA[4
+  <testcase name="homepage" classname="TestCases.NaukriEditCareerProfile" time="26.83">
+    <system-out><![CDATA[C:\Users\gupta\eclipse-workspace\Naukri
+4
 4
 0
+chennai
 ]]></system-out>
   </testcase>
-  <testcase name="logout" classname="TestCases.NaukriEditCareerProfile" time="0.881"/>
-  <testcase name="login" classname="TestCases.NaukriUpdateResume" time="2.05"/>
-  <testcase name="uploadresume" classname="TestCases.NaukriUpdateResume" time="14.997"/>
-  <testcase name="logout" classname="TestCases.NaukriUpdateResume" time="0.412"/>
+  <testcase name="logout" classname="TestCases.NaukriEditCareerProfile" time="0.811"/>
+  <testcase name="login" classname="TestCases.NaukriUpdateResume" time="2.149"/>
+  <testcase name="uploadresume" classname="TestCases.NaukriUpdateResume" time="14.777"/>
+  <testcase name="logout" classname="TestCases.NaukriUpdateResume" time="0.395"/>
 </testsuite>
