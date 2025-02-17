@@ -80,6 +80,7 @@ public class BaseTest {
 			fileInputStream.close(); 
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.out.println("Hello");
 		}
 		return properties.getProperty("locationtobeadded");
 		
