@@ -57,7 +57,7 @@ public class BaseTest {
 		
 	}
 	
-	public String propertiesone()  {
+	public String properties()  {
 		Properties properties = new Properties();
 		try {
 			String filepath=System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties";
@@ -67,24 +67,9 @@ public class BaseTest {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return properties.getProperty("locationtoberemoved");
+		return properties.getProperty("location");
 		
 	}
-	
-	public String propertiestwo()  {
-		Properties properties = new Properties();
-		try {
-			String filepath=System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties";
-			FileInputStream fileInputStream = new FileInputStream(filepath);
-			properties.load(fileInputStream);
-			fileInputStream.close(); 
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return properties.getProperty("locationtobeadded");
-		
-	}
-	
 	
 	@AfterTest
 	public void tearDown() {

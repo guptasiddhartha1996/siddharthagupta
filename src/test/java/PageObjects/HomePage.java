@@ -75,7 +75,7 @@ public class HomePage extends BaseTest {
 	
 	
 	
-	public void CareerProfile(String loc, String lc) throws InterruptedException {
+	public void CareerProfile(String loc) throws InterruptedException {
 	
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.elementToBeClickable(viewprofile)).click();
@@ -97,7 +97,7 @@ public class HomePage extends BaseTest {
 				break;
 			}
 		}
-		location.sendKeys(lc);
+		location.sendKeys(loc);
 		Thread.sleep(3000);
 		ls.get(0).click();
 		Thread.sleep(2000);
