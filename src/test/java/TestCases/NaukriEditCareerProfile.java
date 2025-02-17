@@ -25,7 +25,7 @@ public class NaukriEditCareerProfile extends BaseTest {
 		
 		try {
 			HomePage hp=new HomePage(driver);
-			hp.CareerProfile(properties());
+			hp.CareerProfile(propertiesone(),propertiestwo());
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
