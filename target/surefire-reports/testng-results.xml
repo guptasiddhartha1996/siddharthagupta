@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-05T11:53:02 IST" name="Suite" finished-at="2025-03-05T11:53:11 IST" duration-ms="9014">
+    <groups>
+    </groups>
+    <test started-at="2025-03-05T11:53:02 IST" name="Test" finished-at="2025-03-05T11:53:11 IST" duration-ms="9014">
+      <class name="api.test.UserTests2">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests2@2ba08f26]" started-at="2025-03-05T11:53:02 IST" name="setupData" finished-at="2025-03-05T11:53:02 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests2@2ba08f26]" started-at="2025-03-05T11:53:02 IST" name="testPostUser" finished-at="2025-03-05T11:53:05 IST" duration-ms="3053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests2@2ba08f26]" started-at="2025-03-05T11:53:05 IST" name="testGetUserByName" finished-at="2025-03-05T11:53:06 IST" duration-ms="1443" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.test.UserTests2.testGetUserByName(UserTests2.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:137)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:148)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:88)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:91)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1307)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1134)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:968)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:144)
+at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:339)
+at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:310)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:214)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:179)
+at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:168)
+at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:165)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:110)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:76)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:60)
+at org.apache.maven.lifecycle.internal.DefaultLifecycleStarter.execute(DefaultLifecycleStarter.java:123)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:311)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:225)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:149)
+at org.apache.maven.cling.invoker.mvn.MavenInvoker.doExecute(MavenInvoker.java:470)
+at org.apache.maven.cling.invoker.mvn.MavenInvoker.execute(MavenInvoker.java:95)
+at org.apache.maven.cling.invoker.mvn.MavenInvoker.execute(MavenInvoker.java:85)
+at org.apache.maven.cling.invoker.LookupInvoker.doInvoke(LookupInvoker.java:145)
+at org.apache.maven.cling.invoker.LookupInvoker.invoke(LookupInvoker.java:116)
+at org.apache.maven.cling.ClingSupport.run(ClingSupport.java:64)
+at org.apache.maven.cling.MavenCling.main(MavenCling.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201)
+at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361)
+at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests2@2ba08f26]" started-at="2025-03-05T11:53:06 IST" name="testUpdateUserByName" finished-at="2025-03-05T11:53:09 IST" duration-ms="2841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testDeleteUSerByName()[pri:4, instance:api.test.UserTests2@2ba08f26]" started-at="2025-03-05T11:53:09 IST" name="testDeleteUSerByName" finished-at="2025-03-05T11:53:11 IST" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUSerByName -->
+      </class> <!-- api.test.UserTests2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
