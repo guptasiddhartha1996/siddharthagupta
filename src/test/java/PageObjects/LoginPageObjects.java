@@ -1,5 +1,6 @@
 package PageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -43,6 +44,8 @@ public class LoginPageObjects extends BaseTest {
 	
 	public void logout() {
 		profilebutton.click();
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView();", logout);
 		logout.click();
 	}
 	

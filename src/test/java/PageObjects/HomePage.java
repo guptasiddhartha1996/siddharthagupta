@@ -61,6 +61,9 @@ public class HomePage extends BaseTest {
 	@FindBy(id="saveDesiredProfile")
 	WebElement savebutton;
 	
+	@FindBy(xpath="//div[@class=\"lightbox profileEditDrawer profileUpdatedProLayer model_open flipOpen\"]/div[@class=\"crossLayer\"]/span")
+	WebElement crossbtn;
+	
 	@FindBy(xpath="//span[text()='Resume']")
 	WebElement resume;
 	
@@ -70,7 +73,7 @@ public class HomePage extends BaseTest {
 	@FindBy(xpath="//span[@data-title='delete-resume']")
 	WebElement trashbutton;
 	
-	@FindBy(xpath="(//button[text()='Delete'])[2]")
+	@FindBy(xpath="(//button[@class='btn-dark-ot' and text()='Delete'])[2]")
 	WebElement deletebutton;
 	
 	
@@ -102,6 +105,8 @@ public class HomePage extends BaseTest {
 		ls.get(0).click();
 		Thread.sleep(2000);
 		savebutton.click();
+		wait.until(ExpectedConditions.elementToBeClickable(crossbtn)).click();
+		//crossbtn.click();
 		
 	}
 	
@@ -122,7 +127,7 @@ public class HomePage extends BaseTest {
 		Thread.sleep(2000);
 		uploadbutton.click();
 		Thread.sleep(2000);
-		StringSelection filepathselection=new StringSelection("C:\\Users\\gupta\\Downloads\\Siddhartha_QA_6.5yrs_Resume.pdf");
+		StringSelection filepathselection=new StringSelection("C:\\Users\\gupta\\Downloads\\Siddhartha_QAAuto_resume.pdf");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filepathselection, null);
 		
 		Robot rb=new Robot();
